@@ -1,16 +1,4 @@
 package com.chberndt.demo.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
-@Data
-@AllArgsConstructor
-public class Customer {
-    private Long customerId;
-
-    private String firstName;
-
-    private String lastName;
-
-    private String email;
+public record Customer (Long id, String firstName, String lastName, String email) {
 }

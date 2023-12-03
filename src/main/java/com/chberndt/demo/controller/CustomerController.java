@@ -9,7 +9,7 @@ import com.chberndt.demo.model.Customer;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/v1/customers")
+@RequestMapping("api/v1/users")
 public class CustomerController {
     private static final List<Customer> CUSTOMERS = List.of(
             new Customer(1L, "john", "doe", "john@chberndt.com"),
