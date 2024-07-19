@@ -15,6 +15,8 @@ cd spring-boot-render-example
 ./gradlew bootRun
 ```
 
+The example endpoint can then be accessed at `http://localhost:8080/api/v1/users`
+
 ## Configure Render Deployment
 
 TODO
