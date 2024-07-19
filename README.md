@@ -1,6 +1,6 @@
 # Spring Boot Render Example
 
-Investigate and demonstrate how deploy a Spring Boot REST api on Render.
+Investigate and demonstrate how to deploy a Spring Boot REST api on Render.
 
 ## How To Use
 
