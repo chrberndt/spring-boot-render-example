@@ -13,6 +13,9 @@ cd spring-boot-render-example
 
 # Build and run the application
 ./gradlew bootRun
+
+# Stop the development server with
+Ctrl + C
 ```
 
 The example endpoint can then be accessed at `http://localhost:8080/api/v1/users`
