@@ -14,7 +14,7 @@ public class CustomerController {
 
 	private static final List<Customer> CUSTOMERS = List.of(new Customer(1L, "john", "doe", "john@chberndt.com"),
 			new Customer(2L, "mary", "public", "mary@chberndt.com"),
-			new Customer(3L, "elon", "musk", "elon@chberndt.com"),
+			new Customer(3L, "foo", "bar", "foo@chberndt.com"),
 			new Customer(4L, "dunny", "duncan", "dunny@chberndt.com"));
 
 	@GetMapping
